@@ -1,0 +1,13 @@
+server:
+  error:
+    include-stacktrace: always
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      database: anime
+      port: 27017
+      host: localhost
